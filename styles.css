@@ -2,8 +2,9 @@ body {
     background: rgb(254, 216, 66);
     padding: 3em;
     font-family: 'Inconsolata', monospace; 
-
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400');
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
 
 html {font-size: 100%;} /*16px*/
 
@@ -38,5 +39,3 @@ h4 {font-size: 1.563rem;}
 h5 {font-size: 1.25rem;}
 
 small, .text_small {font-size: 0.8rem;}
-
-}
