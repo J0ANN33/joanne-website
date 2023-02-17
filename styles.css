@@ -1,18 +1,30 @@
+.wrapper {
+  column-count:2;
+  column-gap:20px;
+  padding: 20px;
+}
 body {
-    background: rgb(245, 239, 214);
+    background: rgb(252, 250, 236);
     padding: 6em;
     font-family: 'Inconsolata', monospace; 
+    color: #6b2000;
     
     @import url('https://fonts.googleapis.com/css?family=Poppins:400');
+}
 
-html {font-size: 100%;} /*16px*/
+html {font-size: 100%;} /*16px*/;
 
+img {
+  display: flex;
+  max-width: 10%;
+  max-height: 10%;
+}
 body {
   background: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 2.75;
-  color: #000000;
+  color: #080b35;
 }
 
 p {margin-bottom: 1rem;}
@@ -39,4 +51,20 @@ h5 {font-size: 1.25rem;}
 
 small, .text_small {font-size: 0.8rem;}
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+}
+
+
+
